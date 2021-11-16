@@ -1,13 +1,12 @@
-.user-component {
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
 .user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 0px 15px;
+}
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 .user-component__not-first {
   justify-content: space-between;
