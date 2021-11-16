@@ -1,0 +1,33 @@
+body {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  width: 230px;
+  background-color: wheat;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+.main-box__white {
+  background-color: teal;
+  display: flex;
+}
+.main-box__white-solid {
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+.main-box__white-dashed {
+  height: 50px;
+  width: 180px;
+  border: 1px dashed white;
+  display: flex;
+}
